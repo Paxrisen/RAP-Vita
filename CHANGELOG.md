@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1
+- New: **Twin Mode (landscape)** – two ships on one screen, red = left side controls, blue = right side controls
+- New: **Co-op portrait (split screen)** with L/R seating – each player sits at one end of the Vita
+- Shared shields, weapons, ammo and money; red/blue marker triangles under the ships
+- Two-player options only appear in the SELECT menu while a game is loaded
+- Fix: SELECT menu no longer stays visible in the main menu after closing it
+
 ## v1.0
 - First public release of RAP-Vita (native PS Vita port based on skynettx/raptor)
 - Gamepad, pointer (both sticks) and front-touch support in menus

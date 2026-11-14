@@ -145,11 +145,11 @@ endif()
 if(VITA)
     set(VITA_APP_NAME "RAP-Vita")
     set(VITA_TITLEID  "RAPT00001")
-    set(RAPVITA_VER "1.0")
-    set(VITA_VERSION  "01.00")
+    set(RAPVITA_VER "1.1")
+    set(VITA_VERSION  "01.10")
     add_compile_definitions(RAPVITA_VERSION="v${RAPVITA_VER}")
     set(VITA_MKSFOEX_FLAGS "${VITA_MKSFOEX_FLAGS} -d ATTRIBUTE2=12")
-    add_executable(${PROJECT_NAME} ${SOURCE_FILES} src/vita_debug.cpp src/vita_menu.cpp)
+    add_executable(${PROJECT_NAME} ${SOURCE_FILES} src/vita_debug.cpp src/vita_menu.cpp src/vita_coop.cpp)
     target_link_libraries(raptor
         textscreen
         SDL2::SDL2-static
