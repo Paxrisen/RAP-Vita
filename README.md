@@ -94,3 +94,9 @@ GPL-2.0 – see [LICENSE](LICENSE). The original upstream README is kept as [REA
 
 *Raptor: Call of the Shadows* is a trademark of its respective owners. This project is not affiliated
 with or endorsed by them. The LiveArea artwork was created for this project and contains no original game assets.
+
+## 🤖 Acknowledgments & Credits
+
+* **Porting & Code Generation:** This port was fully developed and generated with the assistance of **Claude Code** (Anthropic's AI coding assistant).
+* **Target Platform:** Sony PlayStation Vita / PS TV.
+* **Special Thanks:** The PS Vita homebrew community for their open-source toolchains and documentation.
