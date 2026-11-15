@@ -38,6 +38,13 @@ reverse-engineered source port **[skynettx/raptor](https://github.com/skynettx/r
 
 Save games, `SETUP.INI` and screenshots (`screenshots/`) are stored in `ux0:data/Raptor/`.
 
+## PS Vita
+
+PS Vita or PS TV on firmware 3.60–3.74 with HENkaku / Ensō (or h-encore)
+VitaShell to install the VPK and copy files
+kubridge 0.3.1 or newer in ur0:tai/config.txt under *KERNEL (required)
+Recommended: vita-turbo-storage, plus about 400 MB free on ux0: for the game files
+
 ## Default controls
 
 | Action | Landscape | Portrait R | Portrait L |
