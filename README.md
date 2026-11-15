@@ -32,8 +32,8 @@ reverse-engineered source port **[skynettx/raptor](https://github.com/skynettx/r
 
 1. Install `Rap-Vita_v1.1.vpk` with VitaShell.
 2. Create the folder `ux0:data/Raptor/`.
-3. Copy `FILE0000.GLB` … `FILE0004.GLB` from the `data` folder of your Raptor installation (e.g. GOG)
-   to `ux0:data/Raptor/` (file names are not case-sensitive; `FILE0005/0006` optional).
+3. Copy `FILE0000.GLB` … `FILE0006.GLB` from the `data` folder of your Raptor installation (e.g. GOG)
+   to `ux0:data/Raptor/`
 4. Start **RAP-Vita**.
 
 Save games, `SETUP.INI` and screenshots (`screenshots/`) are stored in `ux0:data/Raptor/`.
