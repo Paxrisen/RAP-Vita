@@ -38,6 +38,29 @@ reverse-engineered source port **[skynettx/raptor](https://github.com/skynettx/r
 
 Save games, `SETUP.INI` and screenshots (`screenshots/`) are stored in `ux0:data/Raptor/`.
 
+## Troubleshooting
+
+**"Could not load SoundFont.sf2" error at startup**
+
+This happens when a `SETUP.INI` from the PC version (e.g. GOG) was copied to the Vita. The PC version uses
+General MIDI music, which needs a `SoundFont.sf2` file that the Vita doesn't have.
+
+Fix: open `ux0:data/Raptor/SETUP.INI` and make sure the `[Music]` section contains this line:
+
+```ini
+[Music]
+CardType=5
+```
+
+`CardType=5` uses the built-in AdLib/OPL music, just like the original DOS sound. You can also simply delete
+`SETUP.INI`; RAP-Vita then creates a fresh one with the correct settings.
+Since **v1.2.1**, RAP-Vita switches to AdLib music automatically when no SoundFont is found.
+
+**The game doesn't start / crashes right away**
+
+No plugins are required. If you use many plugins, disable the ones listed under `*ALL` in your
+`ux0:tai/config.txt` (or `ur0:tai/config.txt`), reboot and try again.
+
 ## PS Vita
 
 PS Vita or PS TV on firmware 3.60–3.74 with HENkaku / Ensō (or h-encore)
@@ -88,6 +111,11 @@ export VITASDK=/usr/local/vitasdk
 
 A GitHub Actions workflow (`.github/workflows/build.yml`) builds the VPK automatically on every push.
 See [DEVELOPMENT.md](DEVELOPMENT.md) for an overview of the Vita-specific code.
+
+## Community & Support
+Want to share feedback, report bugs, suggest new features, or just chat with other users? Join our community!
+
+👉 **[Join the GameNexum Discord Server](https://discord.gg/xkSFYMCgHH)**
 
 ## Credits
 
