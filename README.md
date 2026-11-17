@@ -32,7 +32,7 @@ reverse-engineered source port **[skynettx/raptor](https://github.com/skynettx/r
 
 1. Install `Rap-Vita_v1.1.vpk` with VitaShell.
 2. Create the folder `ux0:data/Raptor/`.
-3. Copy `FILE0000.GLB` … `FILE0006.GLB` from the `data` folder of your Raptor installation (e.g. GOG)
+3. Copy `FILE0000.GLB` … `FILE0006.GLB` from the `data` folder of your Raptor installation (e.g. GOG 2010 version [2015 steam version dont work])
    to `ux0:data/Raptor/`
 4. Start **RAP-Vita**.
 
