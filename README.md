@@ -135,3 +135,90 @@ with or endorsed by them. The LiveArea artwork was created for this project and 
 * **Porting & Code Generation:** This port was fully developed and generated with the assistance of **Claude Code** (Anthropic's AI coding assistant).
 * **Target Platform:** Sony PlayStation Vita / PS TV.
 * **Special Thanks:** The PS Vita homebrew community for their open-source toolchains and documentation.
+
+# Changelog
+
+> RAP-Vita is made with AI assistance (Claude by Anthropic). Ideas and hardware testing: Paxrisen.
+
+## v1.3
+**Co-op on two Vitas**
+- Ad-hoc (direct) or Wi-Fi (same network) co-op, in sync on both Vitas; the host picks the mission, the guest waits in the hangar
+- Pause and quit work for both players (hold Select for 1.5 s to leave)
+
+**Co-op difficulties: Easy, Fair, Hard, Expert**
+- Fair: tougher enemies that fire more often
+- Hard: own energy and super shield for each player, revive after 12 kills (for both players), game over only when both are down
+- Expert: like Hard, plus 3× enemy health, more fire, faster aircraft and partly cloaked enemies
+- Fixed shield bars in the bottom corners, low-shield warning for both players
+- Each player picks their own special weapon; P1/P2 labels in the HUD; mega bombs move below the super-shield icons
+
+**Menus**
+- New Co-op modes page; hangar button row: Vita menu, Co-op, 2 players (quick toggle), Daily, Medals
+- Option to turn off the triangles under the ships
+
+**Other**
+- Custom music: WAV files in `ux0:data/Raptor/music/` replace the matching tracks
+- Total play time counter in the statistics
+- 2 new co-op medals (28 in total)
+- Fix: player 2 had no muzzle flash
+- Fix: enemy shadows flickered with the "Fast enemies" modifier
+
+## v1.2.2
+- Fix: black screenshots
+- "Fast enemies" only affects aircraft
+- Version number centred in the main menu
+
+## v1.2.1
+- Fix: "Could not load SoundFont.sf2" no longer quits the game (falls back to AdLib)
+- Fix: menu input, button-mapping labels, PC `SETUP.INI` forced to gamepad
+- New: 2-player button mapping, D-pad selects menu items, stick/D-pad speed and dead zone
+
+## v1.2
+**Menus**
+- VITA MENU button in the main menu and hangar; DAILY CHALLENGE button in the hangar
+- SELECT opens the menu only during missions; L/R work as mouse buttons in menus
+- Abort mission (back to hangar) from the RAP-Vita menu
+- Fast scrolling (hold Up/Down), L/R jumps 10 entries, draggable scrollbars, more reliable button input
+
+**Medals & unlockables**
+- 26 medals with pop-ups and progress, pilot helmets for resetting at 100 %, an unlockables page
+
+**Extras**
+- Ship paints and weapon colours for both players, with list pages and live preview
+- Screen filters: CRT, LCD, Greyscale, Green monitor, Sepia, Night vision
+- 17 pilot portraits, including the shop owner from the game data
+- Boss hangar and enemy hangar: recolour bosses and enemies, use their paint, best boss times
+- 9 modifiers: Hardcore, Ghost mode, Turbo credits, Endless bombs, Mirrored steering, Glass cannon, Main gun only, Fast enemies, Turbo speed
+- Daily challenge, records and sector ranks (Bronze to Diamond), mission report after every level
+- Statistics, encyclopedia, jukebox (16 tracks), photo mode
+
+**Co-op**
+- Markers drawn in true colour (no blinking); colour selectable per player, or off
+
+**Pilot creation**
+- Name, callsign, portrait and difficulty (original names) on the keyboard screen, then straight to the hangar
+- Training hint ("only 4 of 9 levels"); no more jumping back to the register window
+
+**Fixes**
+- Crash when choosing certain pilot portraits (unaligned sprite data)
+- Graphics glitches and missing shield bars after closing the menu
+- Debug log is always off at start
+
+## v1.1
+- New: **Twin Mode (landscape)** – two ships on one screen, red = left side controls, blue = right side controls
+- New: **Co-op portrait (split screen)** with L/R seating – each player sits at one end of the Vita
+- Shared shields, weapons, ammo and money; red/blue marker triangles under the ships
+- Two-player options only appear in the SELECT menu while a game is loaded
+- Fix: SELECT menu no longer stays visible in the main menu after closing it
+
+## v1.0
+- First public release of RAP-Vita (native PS Vita port based on skynettx/raptor)
+- Gamepad, pointer (both sticks) and front-touch support in menus
+- On-screen keyboard for pilot name and callsign
+- RAP-Vita menu (SELECT) in English and German: settings, button mapping, screenshots
+- Touch controls in game (steer / steer + fire), D-pad sensitivity (1–5)
+- Screen formats 4:3 / wide / fullscreen
+- Portrait mode (R / L), optionally only during levels, with its own button layout per orientation
+- Screenshots saved to `ux0:data/Raptor/screenshots/`, optional debug log
+- New original LiveArea artwork
+
