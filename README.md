@@ -1,8 +1,8 @@
-# RAP-Vita
+# Raptor Vita Port
 
 **Raptor: Call of the Shadows – native PlayStation Vita port**
 
-RAP-Vita is a native PS Vita port of *Raptor: Call of the Shadows*. It is based on the open-source,
+Raptor Vita Port is a native PS Vita port of *Raptor: Call of the Shadows*. It is based on the open-source,
 reverse-engineered source port **[skynettx/raptor](https://github.com/skynettx/raptor)**
 (itself based on the reverse-engineered codebase by nukeykt), licensed under the GPL-2.0.
 
@@ -14,7 +14,7 @@ reverse-engineered source port **[skynettx/raptor](https://github.com/skynettx/r
 - Runs natively on the PS Vita (no emulator) at the original game speed
 - Full gamepad support, menus usable with a pointer (both analog sticks) or the **front touch screen**
 - Built-in on-screen keyboard for pilot name and callsign
-- **RAP-Vita menu** (press **SELECT** anytime) in **English and German**:
+- **Raptor Vita Port menu** (press **SELECT** anytime) in **English and German**:
   - Settings: language, pointer speed, right stick as pointer, front touch on/off,
     touch controls in game (off / steer / steer + fire), D-pad sensitivity (1–5),
     screen format (4:3 / wide / fullscreen), orientation (landscape / portrait R / portrait L),
