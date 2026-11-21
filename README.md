@@ -140,6 +140,27 @@ with or endorsed by them. The LiveArea artwork was created for this project and 
 
 > RAP-Vita is made with AI assistance (Claude by Anthropic). Ideas and hardware testing: Paxrisen.
 
+## v1.4
+**Online multiplayer**
+- New connection type **Internet (code)**: direct P2P connection with a short code, no server or account
+- Automatic router port opening (UPnP), STUN to find the own Internet address, hole punching with code exchange
+- Online co-op with a larger input buffer; same-network guests connect over the home network automatically
+
+**Highscore & KO hunt (2–4 Vitas, Ad-hoc / Wi-Fi / Internet)**
+- Everyone flies the host's mission with their own pilot; live ranking with names and money; final results screen
+- KO hunt: eliminations after 1 and 2 minutes, boss duel of the last two
+- Optional **live windows**: own view in the centre, live views of up to 3 players (enemies, explosions, shots, destroyed buildings), scoreboard with time / KO countdown
+
+**Chat & voice**
+- Text chat (R tap: write, R hold: history) and voice chat (L: microphone on/off), in the hangar and in missions
+
+**Menus**
+- Host chooses the game type in a dialog; menu font small/large (no overlapping text); 4 menu designs
+
+**Fixes**
+- Crash with live windows (wrong graphics handles)
+- Left/Right on the connection row now cycles all connection types
+
 ## v1.3
 **Co-op on two Vitas**
 - Ad-hoc (direct) or Wi-Fi (same network) co-op, in sync on both Vitas; the host picks the mission, the guest waits in the hangar
@@ -221,4 +242,3 @@ with or endorsed by them. The LiveArea artwork was created for this project and 
 - Portrait mode (R / L), optionally only during levels, with its own button layout per orientation
 - Screenshots saved to `ux0:data/Raptor/screenshots/`, optional debug log
 - New original LiveArea artwork
-
